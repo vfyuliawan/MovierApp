@@ -1,6 +1,6 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import HomeScreen from '../moduls/HomeScreen';
+import HomeScreen from '../moduls/HomeScreen/HomeScreen';
 import MovieScreen from '../moduls/MovieScreen';
 import PersonScreen from '../moduls/PersonScreen';
 import SearchScreen from '../moduls/SearchScreen';

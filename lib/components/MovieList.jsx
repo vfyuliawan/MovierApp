@@ -5,7 +5,13 @@ import {useNavigation} from '@react-navigation/native'
 
 var{width, height} = Dimensions.get('window');
 
+
+
+
+
 const MovieList = ({title, data, hideSeeAll}) => {
+
+
     const navigation = useNavigation()
     let movieName = "Terminator Silverston Stalon" 
     return ( 
@@ -27,6 +33,10 @@ const MovieList = ({title, data, hideSeeAll}) => {
             showsVerticalScrollIndicator={true}
             contentContainerStyle={{ paddingHorizontal:15 }}
             >
+            <View>
+            <Text>data</Text>
+
+            </View>
                 {
                     data.map((item, index) => {
                         return(
